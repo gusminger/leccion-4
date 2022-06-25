@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+/*     font-size: 16px; */
+
+}
+
+body {
+    background: radial-gradient(#f69d3c, #3f87a6);
+}
+
+header {
+    
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(255,0,31,1) 0%, rgba(9,9,121,1) 100%);
+    text-align: center;
+    padding: 25px;
+    /* max-width: 90%; */
+    margin: 20px;
+    border-radius: 15px;
+}
+
+.cabeza {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+
+.principal {
+background: rgb(2,0,36);
+background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(255,0,31,1) 0%, rgba(9,9,121,1) 100%);
+
+ padding: 25px;
+ margin: 20px;
+ border-radius: 20px;   
+}
+
+.tituloArticulo {
+    position: relative;
+    right: 110px;
+    top: 50px;
+    font-size: 30px;
+    color: black;
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+.claseArticulo:first-of-type {
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.399) 0%, rgba(255,255,255,1) 100%);
+    padding: 20px;
+    border-radius: 20px;
+    margin: 20px;
+    box-shadow: 15px 15px 3px rgba(0, 0, 0, 0.498);
+}
+
+.claseArticulo:last-of-type {
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.399) 0%, rgba(255,255,255,1) 100%);
+    padding: 20px;
+    border-radius: 20px;
+    margin: 20px;
+    box-shadow: 15px 15px 3px rgba(0, 0, 0, 0.498);
+    
+}
+
+
+img {
+    width: 500px;
+    border: 5px solid white;
+    border-top-left-radius: 15%;
+    border-bottom-left-radius: 15%;
+    border-bottom-right-radius: 15%;
+    border-top-right-radius: 15%;
+    box-shadow: 15px 15px 3px rgba(0, 0, 0, 0.498);
+    
+}
+
+.boton {
+      
+    width: 40px;
+    height: 40px;
+    background-color: green;
+    box-shadow: 15px 15px 3px rgba(0, 0, 0, 0.498);
+    padding: 20px;
+    border: 5px solid white;
+    border-radius: 10px;
+    color: white;
+    position: relative;
+    top:-300px;
+    left: 80%;
+    font-size: 25px;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+
+}
+
+p {
+    color: white;
+    margin-top: 20px;
+ 
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    padding: 50px;
+}
+
